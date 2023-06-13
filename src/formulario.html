@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulario de Comida</title>
+    <link rel="stylesheet" href="formStyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1>Formulario de Comida</h1>
+
+            <label for="food">Ingrese nombre de quien va pagar</label>
+            <input type="text" id="food" name="food" required class="txtFood" />
+
+            <label>Tipo de Comida a Ordenar</label>
+            <hr>
+            <div>
+                <label for="breakfast">
+                    <input type="radio" id="breakfast" name="meal" value="desayuno" />
+                    Desayuno
+                </label>
+                <label for="lunch">
+                    <input type="radio" id="lunch" name="meal" value="almuerzo" />
+                    Almuerzo
+                </label>
+                <label for="dinner">
+                    <input type="radio" id="dinner" name="meal" value="cena" />
+                    Cena
+                </label>
+            </div>
+
+            <hr>
+
+            <label for="">Tipo de Comida</label>
+
+            <label for="vegetarian">
+                <input type="checkbox" id="vegetarian" name="vegetarian" />
+                Vegetariano
+            </label>
+
+            <label for="vegetarian">
+                <input type="checkbox" id="vegetarian" name="vegetarian" />
+                Carnivoro
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>

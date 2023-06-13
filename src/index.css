@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.titleLog{
+    color: floralwhite;
+    font-size: 24px;
+    text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ffcc00;
+  margin: 10px 0;
+}
+
+.username,
+.password {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.godButton {
+  background-color: #ffcc00;
+  color: #222;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.godButton:hover {
+  background-color: #fff;
+}
+
+.godButton2 {
+  background-color: aquamarine;
+  color: #222;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
